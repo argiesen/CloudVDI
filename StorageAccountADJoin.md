@@ -4,13 +4,11 @@
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Uri https://github.com/Azure-Samples/azure-files-samples/releases/latest/download/AzFilesHybrid.zip -OutFile AzFilesHybrid.zip
-Expand-Archive -Path AzFilesHybrid.zip -DestinationPath .\ -Force
+Expand-Archive -Path AzFilesHybrid.zip -DestinationPath C:\Temp -Force
 
 # Copy module to PSPath
-Push-Location
-Set-Location .\AzFilesHybrid
+Set-Location C:\Temp\AzFilesHybrid
 .\CopyToPSPath.ps1
-Pop-Location
 
 # Import AzFilesHybrid module
 Import-Module -Name AzFilesHybrid
