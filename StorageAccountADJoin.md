@@ -1,5 +1,5 @@
 ## Run from a domain joined machine
-```
+```powershell
 # Download AzFilesHybrid module
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -15,7 +15,7 @@ Import-Module -Name AzFilesHybrid
 ```
 
 ## Close and reopen PowerShell
-```
+```powershell
 # Login with an Azure AD credential that has either storage account owner or contributer Azure role assignment
 # If you are logging into an Azure environment other than Public (ex. AzureUSGovernment) you will need to specify that.
 # See https://docs.microsoft.com/azure/azure-government/documentation-government-get-started-connect-with-ps
