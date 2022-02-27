@@ -1,4 +1,4 @@
-Run from a domain joined machine
+## Run from a domain joined machine
 ```
 # Download AzFilesHybrid module
 $ProgressPreference = 'SilentlyContinue'
@@ -16,6 +16,7 @@ Pop-Location
 Import-Module -Name AzFilesHybrid
 ```
 
+## Close and reopen PowerShell
 ```
 # Login with an Azure AD credential that has either storage account owner or contributer Azure role assignment
 # If you are logging into an Azure environment other than Public (ex. AzureUSGovernment) you will need to specify that.
