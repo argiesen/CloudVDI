@@ -1,10 +1,12 @@
+Run from a domain joined machine
+```
 # Download AzFilesHybrid module
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest -Uri https://github.com/Azure-Samples/azure-files-samples/releases/latest/download/AzFilesHybrid.zip -OutFile AzFilesHybrid.zip
 Expand-Archive -Path AzFilesHybrid.zip -DestinationPath .\ -Force
 
-# Run from a domain joined machine
+# Copy module to PSPath
 Push-Location
 Set-Location .\AzFilesHybrid
 .\CopyToPSPath.ps1
@@ -12,7 +14,9 @@ Pop-Location
 
 # Import AzFilesHybrid module
 Import-Module -Name AzFilesHybrid
+```
 
+```
 # Login with an Azure AD credential that has either storage account owner or contributer Azure role assignment
 # If you are logging into an Azure environment other than Public (ex. AzureUSGovernment) you will need to specify that.
 # See https://docs.microsoft.com/azure/azure-government/documentation-government-get-started-connect-with-ps
@@ -46,3 +50,4 @@ Join-AzStorageAccount `
 
 #Run the command below if you want to enable AES 256 authentication. If you plan to use RC4, you can skip this step.
 Update-AzStorageAccountAuthForAES256 -ResourceGroupName $ResourceGroupName -StorageAccountName $StorageAccountName
+```
