@@ -10,8 +10,7 @@
 * [Naming rules and restrictions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules)
 
 ### Regions
-![image](https://user-images.githubusercontent.com/28941673/155907648-f90b1699-8aec-467a-bd90-06fb700fb8d9.png)
-
+![Azure regions](https://user-images.githubusercontent.com/28941673/155907648-f90b1699-8aec-467a-bd90-06fb700fb8d9.png)
 * [About Azure regions](https://docs.microsoft.com/en-us/azure/virtual-machines/regions)
 * [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/geographies/#geographies)
 * [Products availabile by region](https://azure.microsoft.com/en-us/global-infrastructure/services/)
@@ -85,29 +84,37 @@
 * Direct link to Workbook deployment: https://aka.ms/azmonwvdi
 * [What is MSIX app attach?](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)
 
+
 ## Horizon Cloud on Azure
 * [VMware Horizon Cloud Service Documentation](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/index.html)
 * [Horizon Service Deployments and Onboarding Pods — Horizon Pods and Horizon Cloud Pods on Microsoft Azure](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-6E460805-C323-4200-9A45-45E7BFB31730.html)
 * [YouTube: From Zero to Hero: A Step by Step Guide How To Deploy Horizon Cloud Service on Azure](https://www.youtube.com/watch?v=qIWum9JtLHk)
 
-High level architecture
+High level architecture  
+  <img src="https://user-images.githubusercontent.com/28941673/155908495-0fbadf2b-5fd6-4b4b-b7dc-b814a58dcc03.png" width="768">
 
-<img src="https://user-images.githubusercontent.com/28941673/155908495-0fbadf2b-5fd6-4b4b-b7dc-b814a58dcc03.png" width="768">
-
-Detailed architecture
-
-<img src="https://user-images.githubusercontent.com/28941673/155908510-9fff6f71-f6d6-40ff-ad82-28579d8a6b00.png" width="768">
+Detailed architecture  
+  <img src="https://user-images.githubusercontent.com/28941673/155908510-9fff6f71-f6d6-40ff-ad82-28579d8a6b00.png" width="768">
 
 ### Network
 * [Horizon Cloud on Microsoft Azure Architecture - Network Design](https://techzone.vmware.com/resource/horizon-cloud-on-microsoft-azure-architecture#network-design)
+* Single VNET  
+  <img src="https://user-images.githubusercontent.com/28941673/155909348-93e97e4e-1432-43b5-aa44-e75244fdb702.png" width="680">  
+* [Separate UAG VNET](https://techzone.vmware.com/resource/horizon-cloud-on-microsoft-azure-architecture#deploying-unified-access-gateways-into-a-different-vnet)  
+  <img src="https://user-images.githubusercontent.com/28941673/155909357-69e91b56-9cbd-4a17-99f7-44993daaffe0.png" width="680">
 
-* Single VNET
-<img src="https://user-images.githubusercontent.com/28941673/155909348-93e97e4e-1432-43b5-aa44-e75244fdb702.png" width="680">
+### Compute
+* [Microsoft Azure Virtual Machine Requirements for a Horizon Cloud Pod in Microsoft Azure](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-BA0CD5F3-4805-4C21-866F-93CCC9976EDC.html)
+* [Microsoft Azure Capacity Requirements](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-5F69086E-E061-48F3-93D9-9705B8B5FD8A.html#microsoft-azure-capacity-requirements-4)
 
-* [Separate UAG VNET](https://techzone.vmware.com/resource/horizon-cloud-on-microsoft-azure-architecture#deploying-unified-access-gateways-into-a-different-vnet)
-<img src="https://user-images.githubusercontent.com/28941673/155909357-69e91b56-9cbd-4a17-99f7-44993daaffe0.png" width="680">
+### Deployment
+* [Horizon Cloud on Microsoft Azure - First Pod Deployment - High-Level Workflow](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-F2A692EB-25B7-4208-AF89-23691F5B85D8.html)
+* [Configure the Required Virtual Network in Microsoft Azure](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-919E6477-7506-46CF-B8BC-D4D47A4CC301.html)
+* [Create a Horizon Cloud App Registration in the Pod's Subscription](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-DC011997-CE9E-4B38-9C4F-57104226218C.html)
+  * Create app registration
+  * Assign role to app registration
+  * Register resource providers
+* [Convert a Certificate File to the PEM Format Required for Pod Deployment](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-CB9FCC7C-4EDD-4252-871B-6A259F1DEA95.html)
 
-
-Deployment Wizard steps
-
-<img src="https://user-images.githubusercontent.com/28941673/155908448-8b5fafcc-8cb6-4446-ad6a-527f12cbeea1.png" width="768">
+Deployment Wizard steps  
+  <img src="https://user-images.githubusercontent.com/28941673/155908448-8b5fafcc-8cb6-4446-ad6a-527f12cbeea1.png" width="768">
