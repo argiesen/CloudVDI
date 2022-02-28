@@ -2,7 +2,6 @@
 
 ## Azure Virtual Desktop
 [What is Azure Virtual Desktop?](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
-
 [Azure Virtual Desktop for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop)
 
 
