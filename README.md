@@ -28,6 +28,9 @@
 
 ### Network
 * [Azure network options](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/networking-options)
+* [Hub-spoke network topology with Azure Virtual WAN](https://docs.microsoft.com/en-us/azure/architecture/networking/hub-spoke-vwan-architecture)
+<img src="https://user-images.githubusercontent.com/28941673/155910127-f313093b-322d-4796-b47d-e11a42705bb4.png" width="768">
+
 * [YouTube: Azure Virtual Network Overview](https://www.youtube.com/watch?v=7rzawA--r20)
 * [YouTube: Azure Virtual WAN Overview](https://www.youtube.com/watch?v=f-GyAURZWzg)
 * [YouTube: Azure Virtual Network and PaaS Network Controls](https://www.youtube.com/watch?v=MnARPRQ2kvk)
@@ -66,7 +69,7 @@
 ### Compute
 * [Virtual machine sizing guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs)
 
-### FSLogix
+### Profile Management
 * [FSLogix for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix)
 * [FSLogix profile containers and Azure files](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
 * [Storage options for FSLogix profile containers in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)
@@ -83,5 +86,28 @@
 * [What is MSIX app attach?](https://docs.microsoft.com/en-us/azure/virtual-desktop/what-is-app-attach)
 
 ## Horizon Cloud on Azure
+* [VMware Horizon Cloud Service Documentation](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/index.html)
 * [Horizon Service Deployments and Onboarding Pods — Horizon Pods and Horizon Cloud Pods on Microsoft Azure](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-6E460805-C323-4200-9A45-45E7BFB31730.html)
+* [YouTube: From Zero to Hero: A Step by Step Guide How To Deploy Horizon Cloud Service on Azure](https://www.youtube.com/watch?v=qIWum9JtLHk)
 
+High level architecture
+
+<img src="https://user-images.githubusercontent.com/28941673/155908495-0fbadf2b-5fd6-4b4b-b7dc-b814a58dcc03.png" width="768">
+
+Detailed architecture
+
+<img src="https://user-images.githubusercontent.com/28941673/155908510-9fff6f71-f6d6-40ff-ad82-28579d8a6b00.png" width="768">
+
+### Network
+* [Horizon Cloud on Microsoft Azure Architecture - Network Design](https://techzone.vmware.com/resource/horizon-cloud-on-microsoft-azure-architecture#network-design)
+
+* Single VNET
+<img src="https://user-images.githubusercontent.com/28941673/155909348-93e97e4e-1432-43b5-aa44-e75244fdb702.png" width="680">
+
+* [Separate UAG VNET](https://techzone.vmware.com/resource/horizon-cloud-on-microsoft-azure-architecture#deploying-unified-access-gateways-into-a-different-vnet)
+<img src="https://user-images.githubusercontent.com/28941673/155909357-69e91b56-9cbd-4a17-99f7-44993daaffe0.png" width="680">
+
+
+Deployment Wizard steps
+
+<img src="https://user-images.githubusercontent.com/28941673/155908448-8b5fafcc-8cb6-4446-ad6a-527f12cbeea1.png" width="768">
