@@ -1,10 +1,8 @@
 # Azure Virtual Desktop and Horizon Cloud Training
 
 ## Azure Virtual Desktop
-[What is Azure Virtual Desktop?](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
-
-[Azure Virtual Desktop for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop)
-
+* [What is Azure Virtual Desktop?](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
+* [Azure Virtual Desktop for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop)
 
 ### Network
 * [Understanding Azure Virtual Desktop network connectivity](https://docs.microsoft.com/en-us/azure/virtual-desktop/network-connectivity)
@@ -19,15 +17,11 @@
 * [Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes)
 * [Azure virtual machine sizes naming conventions](https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions)
 
-
 ### FSLogix
-[FSLogix for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix)
-
-[FSLogix profile containers and Azure files](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
-
-[Storage options for FSLogix profile containers in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)
-
-[FSLogix Sizing Calculator](https://github.com/RMITBLOG/FSLogix)
+*[FSLogix for the enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix)
+*[FSLogix profile containers and Azure files](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
+*[Storage options for FSLogix profile containers in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile)
+*[FSLogix Sizing Calculator](https://github.com/RMITBLOG/FSLogix)
 
 
 ### Golden Image
