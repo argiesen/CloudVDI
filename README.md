@@ -3,7 +3,7 @@
 ## Azure Fundementals
 
 ### Governance
-* [Management groups?](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
+* [Management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
 * [Subscriptions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/)
 * [Resource groups](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group)
 * [Resource naming](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
