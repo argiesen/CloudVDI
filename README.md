@@ -21,9 +21,13 @@
 
 ### Network
 * [Understanding Azure Virtual Desktop network connectivity](https://docs.microsoft.com/en-us/azure/virtual-desktop/network-connectivity)
+
+#### Sizing
 * [Remote Desktop workloads](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads)
 * [Remote Desktop Protocol (RDP) bandwidth requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)
 * [Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance)
+
+#### Latency
 * [Determine user connection latency in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/connection-latency)
 * [Azure Virtual Desktop RDP Shortpath for managed networks](https://docs.microsoft.com/en-us/azure/virtual-desktop/shortpath)
 
