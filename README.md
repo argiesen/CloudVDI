@@ -7,25 +7,17 @@
 
 
 ### Network
-[Understanding Azure Virtual Desktop network connectivity](https://docs.microsoft.com/en-us/azure/virtual-desktop/network-connectivity)
-
-[Remote Desktop workloads](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads)
-
-[Remote Desktop Protocol (RDP) bandwidth requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)
-
-[Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance)
-
-[Determine user connection latency in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/connection-latency)
-
-[Azure Virtual Desktop RDP Shortpath for managed networks](https://docs.microsoft.com/en-us/azure/virtual-desktop/shortpath)
-
+* [Understanding Azure Virtual Desktop network connectivity](https://docs.microsoft.com/en-us/azure/virtual-desktop/network-connectivity)
+* [Remote Desktop workloads](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads)
+* [Remote Desktop Protocol (RDP) bandwidth requirements](https://docs.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)
+* [Network guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance)
+* [Determine user connection latency in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/connection-latency)
+* [Azure Virtual Desktop RDP Shortpath for managed networks](https://docs.microsoft.com/en-us/azure/virtual-desktop/shortpath)
 
 ### Compute
-[Virtual machine sizing guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs)
-
-[Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes)
-
-[Azure virtual machine sizes naming conventions](https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions)
+* [Virtual machine sizing guidelines](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs)
+* [Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes)
+* [Azure virtual machine sizes naming conventions](https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions)
 
 
 ### FSLogix
