@@ -96,6 +96,7 @@
 ## Horizon Cloud on Azure
 * [VMware Horizon Cloud Service Documentation](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/index.html)
 * [Horizon Service Deployments and Onboarding Pods — Horizon Pods and Horizon Cloud Pods on Microsoft Azure](https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/hzncloudmsazure.getstarted15/GUID-6E460805-C323-4200-9A45-45E7BFB31730.html)
+* [VMware Hands-on Labs - HOL-2054-01-ISM](https://docs.hol.vmware.com/HOL-2020/hol-2054-01-ism_html_en/)
 
 High level architecture  
   <img src="https://user-images.githubusercontent.com/28941673/155908495-0fbadf2b-5fd6-4b4b-b7dc-b814a58dcc03.png" width="768">
